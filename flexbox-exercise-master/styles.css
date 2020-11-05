@@ -1,0 +1,98 @@
+body {
+  background: linear-gradient(
+    to bottom right,
+    rgba(83, 73, 80, 0.493),
+    rgba(134, 176, 196, 0.493)
+  );
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.linebreak {
+  margin-top: 5px;
+  width: 100%;
+}
+
+.linebreak p {
+  color: rgb(236, 228, 212);
+  display: flex;
+  font-size: 60px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.car {
+  max-width: 750px;
+  border-radius: 5px;
+  display: flex;
+  align-items: stretch;
+  overflow: hidden;
+}
+
+.car__number {
+  display: flex;
+  flex: 0;
+  background-color: rgb(236, 228, 212);
+  justify-content: center;
+  align-items: center;
+  font-size: 55px;
+}
+
+.car__hero {
+  flex: 1;
+}
+
+.car__img {
+  width: 100%;
+  display: block;
+}
+
+.car__description {
+  display: flex;
+  flex: 1;
+  background-color: rgb(255, 255, 255);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.the-new {
+  color: rgb(228, 9, 9);
+}
+
+.car__title {
+  font-size: 35px;
+  color: rgb(70, 70, 70);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.car__heading {
+  margin-bottom: 140px;
+  margin-right: auto;
+}
+
+.car__price {
+  flex: 0, 0, 10%;
+  background: linear-gradient(to left, rgb(58, 24, 34), rgb(16, 12, 32));
+  display: flex;
+  writing-mode: vertical-rl;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  color: white;
+}
+
+.line-between {
+  color: rgb(236, 228, 212);
+  margin: 15px auto;
+  width: 30%;
+}
+
+.buy-button {
+  display: block;
+  background-color: green;
+  border: 1px solid;
+}
